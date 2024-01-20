@@ -31,9 +31,9 @@ const config: Config = {
         docs: {
           sidebarPath: "./sidebars.ts",
         },
-        blog: {
-          showReadingTime: true,
-        },
+        // blog: {
+        //   showReadingTime: true,
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -69,11 +69,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Guides",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "How to buy or sell a micro startup",
+              to: "/docs/tips-to-buy-or-sell",
             },
           ],
         },
