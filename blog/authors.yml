@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+medartus:
+  name: Marc-Etienne Dartus
+  title: Co-founder of BuyMicroStartups
+  url: https://twitter.com/medartus
+  image_url: https://www.blog.buymicrostartups.com/img/profile/medartus.jpg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+dom:
+  name: Domenico Gagliardi
+  title: Co-founder of BuyMicroStartups
+  url: https://twitter.com/DG_9_6
+  image_url: https://www.blog.buymicrostartups.com/img/profile/dom.jpg
