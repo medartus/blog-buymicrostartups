@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Startups acquisition guides | BuyMicroStartups",
+  title: "Startups acquisition guides",
   tagline: "Learn how to buy and sell micro startups.",
   favicon: "img/favicon.ico",
 
@@ -73,7 +73,7 @@ const config: Config = {
           items: [
             {
               label: "How to buy or sell a micro startup",
-              to: "/docs/tips-to-buy-or-sell",
+              to: "/docs/tips-to-buy-or-sell-startups",
             },
           ],
         },
