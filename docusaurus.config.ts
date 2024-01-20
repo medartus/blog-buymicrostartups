@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Startups acquisition guides | BuyMicroStartups",
+  tagline: "Learn how to buy and sell micro startups.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -43,11 +43,11 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/opengraph-image.jpg",
     navbar: {
-      title: "BuyMicroStartups Blog",
+      title: "BuyMicroStartups",
       logo: {
-        alt: "BuyMicroStartups Blog",
+        alt: "BuyMicroStartups Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -55,12 +55,12 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Guides",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
+          href: "https://www.buymicrostartups.com",
+          label: "Marketplace",
           position: "right",
         },
       ],
@@ -78,37 +78,37 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Social Media",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "BuyMicroStartups Twitter",
+              href: "https://twitter.com/buy_micro",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Marc-Etienne Twitter",
+              href: "https://twitter.com/medartus",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "Domenico Twitter",
+              href: "https://twitter.com/DG_9_6",
             },
           ],
         },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
-          ],
-        },
+        // {
+        //   title: "More",
+        //   items: [
+        //     {
+        //       label: "Blog",
+        //       to: "/blog",
+        //     },
+        //     {
+        //       label: "GitHub",
+        //       href: "https://github.com/facebook/docusaurus",
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BuyMicroStartups.`,
     },
     prism: {
       theme: prismThemes.github,
