@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import "dotenv/config";
 
 const config: Config = {
   title: "Startups acquisition guides",
@@ -115,6 +116,17 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [
+      "posthog-docusaurus",
+      {
+        apiKey: process.env.POSTHOG_KEY, // required
+        api_host: `${process.env.SITE_URL}/ingest`,
+        enableInDevelopment: false, // optional
+        // other options are passed to posthog-js init as is
+      },
+    ],
+  ],
 };
 
 export default config;

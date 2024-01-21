@@ -17,6 +17,9 @@ dependencies:
   clsx:
     specifier: ^2.0.0
     version: 2.1.0
+  posthog-docusaurus:
+    specifier: ^2.0.0
+    version: 2.0.0
   prism-react-renderer:
     specifier: ^2.3.0
     version: 2.3.1(react@18.2.0)
@@ -37,6 +40,9 @@ devDependencies:
   '@docusaurus/types':
     specifier: 3.1.0
     version: 3.1.0(react-dom@18.2.0)(react@18.2.0)
+  dotenv:
+    specifier: ^16.3.2
+    version: 16.3.2
   typescript:
     specifier: ~5.2.2
     version: 5.2.2
@@ -4283,6 +4289,11 @@ packages:
       is-obj: 2.0.0
     dev: false
 
+  /dotenv@16.3.2:
+    resolution: {integrity: sha512-HTlk5nmhkm8F6JcdXvHIzaorzCoziNQT9mGxLPVXW8wJF1TiGSL60ZGB4gHWabHOaMmWmhvk2/lPHfnBiT78AQ==}
+    engines: {node: '>=12'}
+    dev: true
+
   /duplexer@0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: false
@@ -7255,6 +7266,11 @@ packages:
       nanoid: 3.3.7
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: false
+
+  /posthog-docusaurus@2.0.0:
+    resolution: {integrity: sha512-nDSTIhmH/Fexv347Gx6wBCE97Z+fZTj0p/gqVYAaolMwSdVuzwyFWcFA+aW9uzA5Y5hjzRwwKJJOrIv8smkYkA==}
+    engines: {node: '>=10.15.1'}
     dev: false
 
   /pretty-error@4.0.0:
