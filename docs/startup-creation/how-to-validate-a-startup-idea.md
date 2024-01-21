@@ -1,7 +1,7 @@
 ---
 id: how-to-validate-a-startup-idea
 title: How to Validate a Startup Idea
-sidebar_label: How to Validate a Startup Idea
+sidebar_label: Validate a Startup Idea
 sidebar_position: 1
 description: "Validate your startup idea before building it. Save time, money, and resources, and focus on the most promising opportunities. Your guide to success!"
 keywords:
@@ -16,7 +16,7 @@ keywords:
   - Metrics
   - Results
   - Goal
-  - Recapio
+  - RecapioGPT
   - AI Alfred
   - Early adopters
   - Feedback
@@ -52,7 +52,7 @@ You don’t need to build the product yet. That would be wasting time and resour
 
 Here is the process I always use for validating my ideas:
 
-1. Once I have an idea, I create a landing page on [Yep.so](https://yep.so/), a website that lets you build landing pages in minutes. I did this for my last two products, and it worked very well. You can see some examples [here](link-to-examples).
+1. Once I have an idea, I create a landing page on [Yep.so](https://yep.so/), a website that lets you build landing pages in minutes. I did this for my last two products, and it worked very well. You can see some examples [here](https://yep.so/p/ai-alfred).
 2. On the landing page, I explain what my idea is, what problem it solves, and what benefits it offers. I also include some screenshots (fake) of how the product would look like. Then, I add a call to action to collect users’ emails. This way, I can validate my idea without spending money or time, and also build a list of potential beta testers for later.
 3. Next, I share the landing page with as many people as possible. I use social media, online communities, forums, blogs, newsletters, and any other channel that is relevant to my target market. The more people see the landing page, the more chances I have to get emails and validate the product as soon as possible.
 4. Finally, I analyze the results. I look at the number of views, the number of emails, and the conversion rate. These metrics tell me how much interest and demand there is for my idea.
