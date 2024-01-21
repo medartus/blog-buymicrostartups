@@ -19,9 +19,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/tips-to-buy-or-sell-startups"
+            to="/docs/expert-tips-for-successful-micro-startup-transactions"
           >
-            Learn how to buy or sell a startup
+            Learn tips for successful micro-startup transactions
           </Link>
         </div>
       </div>
