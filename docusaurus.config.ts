@@ -36,10 +36,14 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          editUrl:
+            "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
         },
-        // blog: {
-        //   showReadingTime: true,
-        // },
+        blog: {
+          showReadingTime: true,
+          editUrl:
+            "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
