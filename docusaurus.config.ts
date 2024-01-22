@@ -39,11 +39,11 @@ const config: Config = {
           editUrl:
             "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -85,7 +85,7 @@ const config: Config = {
           position: "left",
           label: "Guides",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://www.buymicrostartups.com",
           label: "Marketplace",
