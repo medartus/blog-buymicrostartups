@@ -77,7 +77,7 @@ After the first trial, we asked our early adopters for feedback about the produc
 
 We used a platform like Typeform, which allows you to create engaging and interactive surveys. We also offered incentives, such as free credits or discounts, to encourage users to complete the survey.
 
-We analyzed the feedback and used it to improve our product. We added new features, such as customizing the length and tone of the summaries, integrating with other platforms, such as Google Docs and WordPress, and supporting multiple languages. We also improved the quality and accuracy of the summaries by fine-tuning our AI model with more data and feedback.
+We analyzed the feedback and used it to improve our product. We added new features, such as customizing the length and tone of the summaries and supporting multiple languages. We also improved the quality and accuracy of the summaries by fine-tuning our AI model with more data and feedback.
 
 We repeated this process of sending our product, asking for feedback, and iterating until we reached a product-market fit.
 

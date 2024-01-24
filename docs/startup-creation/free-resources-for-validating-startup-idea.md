@@ -37,7 +37,7 @@ keywords:
 
 # Free Resources for Validating a Startup Idea
 
-As an experienced entrepreneur, I know how important it is to validate your idea before investing time and money into building it. Validation helps you test your assumptions, get feedback from potential customers, and find out if there is a market demand for your solution.
+Validation helps you test your assumptions, get feedback from potential customers, and find out if there is a market demand for your solution.
 
 But how do you validate your idea without spending a fortune? Luckily, there are many free resources that you can use to create a landing page, share your idea, and get opinions from other entrepreneurs and experts. In this article, I will share with you the free resources that I used to validate my own ideas, and how you can use them too.
 
