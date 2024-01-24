@@ -3,8 +3,13 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import "dotenv/config";
 
+const description =
+  "Learn how to create, buy and sell micro startups. Startups creation, acquisition and sales guides for entrepreneurs and investors.";
+const title = "Startups creation and acquisition guides";
+const seoTile = `${title} | BuyMicroStartups`;
+
 const config: Config = {
-  title: "Startups acquisition guides",
+  title: "BuyMicroStartups",
   tagline: "Learn how to buy and sell micro startups.",
   favicon: "img/favicon.ico",
 
@@ -31,9 +36,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          editUrl:
+            "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
         },
         // blog: {
         //   showReadingTime: true,
+        //   editUrl:
+        //     "https://github.com/medartus/blog-buymicrostartups/tree/mainline/",
         // },
         theme: {
           customCss: "./src/css/custom.css",
@@ -41,10 +50,27 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
   themeConfig: {
-    // Replace with your project's social card
-    image: "img/opengraph-image.jpg",
+    image: "img/opengraph-image.png",
+    metadata: [
+      { name: "description", content: description },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@buy_micro" },
+      { name: "twitter:title", content: seoTile },
+      {
+        name: "twitter:description",
+        content: description,
+      },
+      { property: "og:title", content: seoTile },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: process.env.SITE_URL },
+      {
+        property: "og:description",
+        content: description,
+      },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+    ],
     navbar: {
       title: "BuyMicroStartups",
       logo: {
@@ -58,7 +84,7 @@ const config: Config = {
           position: "left",
           label: "Guides",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://www.buymicrostartups.com",
           label: "Marketplace",
@@ -114,6 +140,12 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    algolia: {
+      appId: process.env.ALGOLIA_APP_ID,
+      apiKey: process.env.ALGOLIA_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME,
+      contextualSearch: true,
     },
   } satisfies Preset.ThemeConfig,
   plugins: [
