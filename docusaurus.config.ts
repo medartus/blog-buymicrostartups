@@ -100,7 +100,7 @@ const config: Config = {
           items: [
             {
               label: "How to buy or sell a micro startup",
-              to: "/docs/expert-tips-for-successful-micro-startup-transactions",
+              to: "/docs",
             },
           ],
         },
