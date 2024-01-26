@@ -100,23 +100,23 @@ const config: Config = {
           items: [
             {
               label: "Free resources for validating your startup idea",
-              to: "/docs/free-resources-for-validating-your-startup-idea",
+              to: "/docs/startup-creation/free-resources-for-validating-startup-idea",
             },
             {
               label: "How to gather feedback from your customers",
-              to: "/docs/how-to-gather-feedback-from-your-customers",
+              to: "/docs/startup-creation/how-to-gather-feedback-from-your-customers",
             },
             {
               label: "Why you need SEO for your startup",
-              to: "/docs/why-you-need-seo-for-your-startup",
+              to: "/docs/startup-growth/why-you-need-seo-for-your-micro-business",
             },
             {
               label: "Critical metrics for selling a micro startup",
-              to: "/docs/critical-metrics-for-selling-a-micro-startup",
+              to: "/docs/startup-selling/critical-metrics-for-selling-a-micro-startup",
             },
             {
               label: "How can you evaluate your business correctly",
-              to: "/docs/how-can-you-evaluate-your-business-correctly",
+              to: "/docs/startup-selling/how-can-you-evaluate-your-business-correctly",
             },
           ],
         },
