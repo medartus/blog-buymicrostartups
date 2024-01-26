@@ -96,11 +96,27 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Guides",
+          title: "Popular Guides",
           items: [
             {
-              label: "How to buy or sell a micro startup",
-              to: "/docs",
+              label: "Free resources for validating your startup idea",
+              to: "/docs/free-resources-for-validating-your-startup-idea",
+            },
+            {
+              label: "How to gather feedback from your customers",
+              to: "/docs/how-to-gather-feedback-from-your-customers",
+            },
+            {
+              label: "Why you need SEO for your startup",
+              to: "/docs/why-you-need-seo-for-your-startup",
+            },
+            {
+              label: "Critical metrics for selling a micro startup",
+              to: "/docs/critical-metrics-for-selling-a-micro-startup",
+            },
+            {
+              label: "How can you evaluate your business correctly",
+              to: "/docs/how-can-you-evaluate-your-business-correctly",
             },
           ],
         },
@@ -121,19 +137,15 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   title: "More",
-        //   items: [
-        //     {
-        //       label: "Blog",
-        //       to: "/blog",
-        //     },
-        //     {
-        //       label: "GitHub",
-        //       href: "https://github.com/facebook/docusaurus",
-        //     },
-        //   ],
-        // },
+        {
+          title: "Buy & Sell Marketplace",
+          items: [
+            {
+              label: "BuyMicroStartups",
+              to: "https://www.buymicrostartups.com",
+            },
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} BuyMicroStartups.`,
     },
