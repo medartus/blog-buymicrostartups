@@ -1,55 +1,67 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
+  path: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Startup Creation",
+    Svg: require("@site/static/img/landing-page/undraw_creativity.svg").default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We guide you how to create a micro-startup from scratch. You will learn
+        how to find a profitable niche, how to validate your idea, how to
+        develop your product, how to launch your micro-startup, and how to grow
+        your business.
       </>
     ),
+    path: "/docs/category/startup---creation",
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Startup Growth",
+    Svg: require("@site/static/img/landing-page/undraw_growth_curve.svg")
+      .default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We guide you how to grow and optimize your micro-startup by applying
+        proven strategies and tactics. You will learn how to increase your
+        traffic, conversions, and revenue, how to reduce your costs and risks,
+        and how to improve your customer satisfaction and retention.
       </>
     ),
+    path: "/docs/category/startup---growth",
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Startup Acquisition",
+    Svg: require("@site/static/img/landing-page/undraw_term_sheet.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We guide you prepare and sell your micro-startup for a profit. You will
+        learn how to determine the optimal time and price to sell, how to market
+        your micro-startup to potential buyers, and how to close the deal and
+        hand over the business.
       </>
     ),
+    path: "/docs/category/startup---selling",
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description, path }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <p className="text--justify">{description}</p>
+        <a href={path}>Read guides</a>
       </div>
     </div>
   );
