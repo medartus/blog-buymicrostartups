@@ -47,7 +47,7 @@ Once you’ve validated an idea, and you know there is a problem and a market, y
 
 In 2024 there is an activity that is more important than others: it is the **distribution**.
 
-!https://miro.medium.com/v2/resize:fit:875/1*7WGBxURw4xLPpE3F6Fgb6A.png
+![Schema from validation to Distribution](./img/from-validation-to-distribution.webp)
 
 Everyone can build a product today. We’ve democratized everything about product building: there are no-code tools; there are AI tools for every activity like marketing, videos, and images. We are full of tools that can help us build our dream product in a few weeks (or days too).
 
@@ -59,33 +59,33 @@ This is the strategy we adopted for each project we managed during the last coup
 
 The first thing I always do when I’m ready to launch my product is look for good websites where I can boost my product. I mean directories, online communities, tools directories, groups, and so on. This is my list of websites and directories I always have on my laptop — if you have more, please comment!
 
-1. https://news.ycombinator.com/
-2. [http://fazier.com](https://t.co/JrAvaZpCL2)
-3. producthunt.com
-4. 1000.tools
-5. uneed.best
-6. insanelycooltools.com
-7. makerpeak.com
-8. getmakerlog.com
-9. startups.fyi
-10. betalist.com
-11. indie.page
-12. sideprojectors.com
-13. startupstash.com
-14. launchingnext.com
-15. webwiki.com
-16. betafy.co
-17. prelaunchers.xyz
-18. techpluto.com
-19. startupranking.com
-20. startuplister.com
-21. startupinspire.com
-22. 10words.io
-23. pitchwall.co
-24. owwly.com
-25. Startupbase.io
-26. launched.io
-27. f6s.com
+1. [Hacker News](https://news.ycombinator.com/)
+2. [Fazier](https://fazier.com/)
+3. [Product Humt](https://producthunt.com)
+4. [1000 Tools](https://1000.tools)
+5. [Uneed](https://uneed.best)
+6. [Insanely Cool Tools](https://insanelycooltools.com)
+7. [Mater Peak](https://makerpeak.com)
+8. [GetMakerLog](https://getmakerlog.com)
+9. [startups.fyi](https://startups.fyi)
+10. [BetaList](https://betalist.com)
+11. [Indie Page](https://indie.page)
+12. [Side Projectors](https://sideprojectors.com)
+13. [Startups Stash](https://startupstash.com)
+14. [Launching next](https://launchingnext.com)
+15. [Web wiki](https://webwiki.com)
+16. [Betafy](https://betafy.co)
+17. [Prelaunchers](https://prelaunchers.xyz)
+18. [Techpulto](https://techpluto.com)
+19. [Startups Ranking](https://startupranking.com)
+20. [Startup Lister](https://startuplister.com)
+21. [StartupInspire](https://startupinspire.com)
+22. [10Words](https://10words.io)
+23. [PitchWall](https://pitchwall.co)
+24. [Owly](https://owwly.com)
+25. [Startup Base](https://Startupbase.io)
+26. [Launched](https://launched.io)
+27. [f6s](https://f6s.com)
 
 Note that most of them are directories with a long waiting list. So you could also have the option to pay to “skip the line”. I never did this, I just wait, but it depends on your plan.
 
@@ -95,10 +95,10 @@ Well, Reddit is an angel and a devil at the same time. The pain point with Reddi
 
 These are the subreddits I usually use:
 
-1. https://www.reddit.com/r/SideProject/
-2. https://www.reddit.com/r/InternetIsBeautiful/
-3. https://www.reddit.com/r/sidehustle/
-4. https://www.reddit.com/r/EntrepreneurRideAlong/
+1. [r/SideProject/](https://www.reddit.com/r/SideProject/)
+2. [r/InternetIsBeautiful/](https://www.reddit.com/r/InternetIsBeautiful/)
+3. [r/sidehustle/](https://www.reddit.com/r/sidehustle/)
+4. [r/EntrepreneurRideAlong/](https://www.reddit.com/r/EntrepreneurRideAlong/)
 
 ## Promote your product on Facebook Groups
 
