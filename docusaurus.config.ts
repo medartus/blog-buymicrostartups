@@ -138,11 +138,11 @@ const config: Config = {
           ],
         },
         {
-          title: "Buy & Sell Marketplace",
+          title: "Links",
           items: [
             {
-              label: "BuyMicroStartups",
-              to: "https://www.buymicrostartups.com",
+              label: "Github Project",
+              to: "https://github.com/medartus/blog-buymicrostartups",
             },
           ],
         },
