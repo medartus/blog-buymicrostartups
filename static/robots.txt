@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.blog.buymicrostartups.com
+
+# Sitemaps
+Sitemap: https://www.blog.buymicrostartups.com/sitemap.xml
